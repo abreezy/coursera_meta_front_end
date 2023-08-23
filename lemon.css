@@ -1,0 +1,126 @@
+body {
+    background-color: #b5b5b5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 60%;
+    
+}
+nav {
+    background-color: #ffca1e;
+    border-radius: 5px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+li {
+    transition: background-color 1s ease;
+    border-radius: 5px;
+}
+li:hover {
+    background-color: #515151;
+}
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+    text-align: justify;
+    padding: 0.5rem;
+}
+#banner {
+    background-image: url(https://images.everydayhealth.com/images/is-the-mediterranean-diet-best-for-diabetes-1440x810.jpg?w=1110);
+    height: auto;
+    max-width: 100%;
+    opacity: 0.8;
+    background-position: 0.5px;
+    border-radius: 5px;
+}
+#banner h1 {
+    color: white;
+    text-shadow: black 4px 2px;
+}
+#banner p {
+    color: black;
+    background-color: #ffeb54;
+}
+#columns h2 {
+    text-align: center;
+}
+#columns article {
+    background-color: #ffeb54;
+    border-radius: 25px;
+    margin: 2px;
+}
+#columns img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+div button {
+    background-color: #ffca1e; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #515151;
+    transition: 0.5s ease-in;
+}
+div button:hover {
+    background-color: #515151;
+    color: #ffeb54;
+    
+}
+article ul li {
+    list-style: none;
+    padding: 1%;
+    font-weight: bold;
+}
+footer {
+    display: flex;
+    padding-top: 2%;
+}
+footer div {
+    flex: 1;
+}
+footer img {
+    width: 10%;
+}
+footer div p {
+    text-align: end;
+    border-top: 2px solid #515151;
+}
