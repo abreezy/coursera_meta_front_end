@@ -1,0 +1,14 @@
+/* Header.css */
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+    margin: 0;
+  }
+
+  /* Add additional styles for your header content as needed */
