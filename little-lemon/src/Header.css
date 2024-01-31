@@ -1,14 +1,26 @@
-/* Header.css */
+.header {
+  background-color: #f8f8f8;
+  display: flex;
+  padding: 5px;
+  position: fixed;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-container img {
+  max-height: 70px;
+  width: auto;
+}
 
-header {
-    background-color: #f8f8f8;
-    padding: 10px;
-    text-align: center;
+  @media (max-width: 1366px) {
+    .logo-container img {
+      max-height: 40px; /* Adjust max-height for larger screens */
+    }
+}
+
+@media (max-width: 1024px) {
+  .logo-container img {
+    max-height: 28px; /* Adjust max-height for smaller screens */
   }
-
-  h1 {
-    color: #333;
-    margin: 0;
-  }
-
-  /* Add additional styles for your header content as needed */
+}
