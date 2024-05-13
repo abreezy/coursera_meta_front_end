@@ -1,14 +1,46 @@
 /* Main.css */
 
 .main {
-  padding: 20px;
+  padding: 5%;
 }
 
-.section {
+.section-1 {
+  padding-top: 1%;
+  margin-bottom: 30px;
+}
+.section-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.section-heading-1 {
+  /* justify-content: flex-start; */
+  float: left;
+  width: 50%;
+  padding-left: 6%;
+  padding-right: 5%;
+}
+.card-container-1 {
+  /* display: flex;
+  justify-content: flex-end; */
+  float: left;
+  width: 30%;
+  height: auto;
+  padding-top: 6%;
+}
+.reserve-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+.section-2 {
   margin-bottom: 30px;
 }
 
-.section-heading {
+.section-heading-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,18 +52,52 @@
   padding: 10px;
   border: none;
   cursor: pointer;
+  width: 20%;
+}
+.card-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-2 .card {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust based on the number of cards you want per row */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: calc(33.33% - 20px); /* Adjust based on the number of cards you want per row */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+.card-container-2 .card img {
+  width: 100%;
+  height: auto;
+}
+.card-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-3 .card {
+  flex: 0 0 calc(25% - 20px); /* Adjust based on the number of cards you want per row */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: calc(25% - 20px); /* Adjust based on the number of cards you want per row */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-between;
+.section-3 {
+  margin-bottom: 30px;
+}
+
+.section-4 {
+  margin-bottom: 30px;
 }
 
 .card {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
-  max-width: 200px;
+  max-width: calc(33.33% - 20px);
 }
 
 .card img {
@@ -42,7 +108,7 @@
 .card-content {
   text-align: center;
 }
-
+/*
 .image-container {
   position: relative;
 }
@@ -62,3 +128,4 @@
 .section-description {
   margin-top: 20px;
 }
+*/

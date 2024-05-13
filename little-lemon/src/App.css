@@ -6,11 +6,4 @@ body {
 }
 
 
-/* Apply a flex container to the root div */
-
-div {
-  display: flex;
-  flex-direction: column;
-}
-
 

@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo-container">
-      <img src="src\img\Asset 16@4x.png" alt='Little lemon logo'></img>
+      <img src="https://littlelemonrestaurantankitamwebsiteproject.netlify.app/static/media/Logo.370f832fad423c516d56.png" alt='Little lemon logo'></img>
       </div>
     </header>
   );
