@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-function Card({ imageSrc, subHeading, price, description, rating, name, caption }) {
+function Card({ imageSrc, subHeading, price, description, rating, name, caption, showButton = true }) {
   return (
     <div className="card">
-      <img src={imageSrc} alt={subHeading} />
+      <img src={imageSrc} alt={subHeading || name} />
       <div className="card-content">
         <h3>{subHeading}</h3>
         {price && <p>{price}</p>}
@@ -13,7 +13,7 @@ function Card({ imageSrc, subHeading, price, description, rating, name, caption 
         {rating && <p>Rating: {rating}</p>}
         {name && <p>{name}</p>}
         {caption && <p>{caption}</p>}
-        <button>Order</button>
+        {showButton && <button>Order a delivery</button>}
       </div>
     </div>
   );
