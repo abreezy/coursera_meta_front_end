@@ -1,6 +1,7 @@
 nav {
   background-color: white;
-  position: absolute;
+  position: fixed;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-top: 5%;

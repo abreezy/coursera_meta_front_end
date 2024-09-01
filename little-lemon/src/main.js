@@ -53,14 +53,14 @@ function Main() {
       {/* Fourth Section */}
       <section className="section-4">
         <div className="section-heading-4">
-          <h2>Third Section</h2>
-          <h3>Subtitle</h3>
+          <h2>Little Lemon</h2>
+          <h3>Chicago</h3>
         </div>
         <div className="image-container">
           <img src="image1.jpg" alt="Image 1" className="image1" />
           <img src="image2.jpg" alt="Image 2" className="image2" />
         </div>
-        <p className="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p className="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </section>
     </main>
   );

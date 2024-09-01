@@ -5,14 +5,19 @@
 }
 button {
   border-radius: 12px;
-  background-color: #ffff00;
+  background-color: #f4ce14;
   font-weight: bold;
   color: black;
 }
 
 .section-1 {
   padding-top: 1%;
+  margin-top: 2%;
   margin-bottom: 30px;
+  color: white;
+}
+.section-1 h2 {
+  color: #dfbf1c;
 }
 .section-1:after {
   content: "";
@@ -27,7 +32,7 @@ button {
   padding-right: 5%;
 }
 .section-1 {
-  background-color: #4a7828;
+  background-color: #4c5c54;
 }
 .card-container-1 {
   /* display: flex;
@@ -35,7 +40,10 @@ button {
   float: left;
   width: 30%;
   height: auto;
-  padding: 1% 1% 1% 1%
+  padding: 1% 1% 1% 1%;
+}
+.card-container-1 img {
+  border-radius: 15px;
 }
 .reserve-button {
   padding: 10px;
@@ -59,23 +67,83 @@ button {
   cursor: pointer;
   width: 20%;
 }
+
 .card-container-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .card-container-2 .card {
   flex: 0 0 calc(33.33% - 20px); /* Adjust based on the number of cards you want per row */
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px;
+  background-color: #edefee;
+  border-radius: 15px 15px 0px 0px;
   max-width: calc(33.33% - 20px); /* Adjust based on the number of cards you want per row */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
+  padding: 10px; /* Add padding if needed */
 }
+
+/* Align subHeading and price on the same line */
+.card-container-2 .card .card-content h3,
+.card-container-2 .card .card-content p:first-of-type {
+  display: inline-block;
+  margin: 0;
+}
+
+.card-container-2 .card .card-content h3 {
+  font-size: 1.2em; /* Adjust font size as needed */
+  float: left; /* Align subHeading to the left */
+}
+
+.card-container-2 .card .card-content p:first-of-type {
+  font-size: 1.2em; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #c24021; /* Set price color to #c24021 */
+  float: right; /* Align price to the right */
+}
+
+/* Clear floats and style the description */
+.card-container-2 .card .card-content p:nth-of-type(2) {
+  clear: both; /* Clear floats so that the description starts below */
+  margin-top: 50px; /* Add more space above the description */
+  text-align: left; /* Ensure the description is aligned to the left */
+}
+
+/* General styling for the image */
 .card-container-2 .card img {
   width: 100%;
   height: auto;
+  border-radius: 14px;
 }
+
+.card-container-2 .card .card-content {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* Style for the "Order a delivery" button */
+.card-container-2 .card .card-content button {
+  background: none; /* Remove default button background */
+  border: none; /* Remove default button border */
+  color: #000; /* Set text color to black */
+  font-weight: bold; /* Make the text bold */
+  font-size: 1em; /* Set font size */
+  cursor: pointer; /* Change cursor to pointer */
+  display: inline-flex; /* Align text and icon horizontally */
+  align-items: center; /* Vertically center the text and icon */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style for the bike icon */
+.card-container-2 .card .card-content button .bike-icon {
+  margin-left: 8px; /* Space between text and the icon */
+  font-size: 1.2em; /* Adjust the size of the icon */
+}
+
+.section-3 h2 {
+  text-align: center;
+}
+
 .card-container-3 {
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +159,9 @@ button {
 }
 
 .section-3 {
+  padding-top: 10px;
   margin-bottom: 30px;
+  background-color: #d9d9d9;
 }
 
 .section-4 {
