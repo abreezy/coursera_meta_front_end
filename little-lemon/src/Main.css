@@ -156,16 +156,26 @@ button {
   margin: 10px;
   max-width: calc(25% - 20px); /* Adjust based on the number of cards you want per row */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
+  background-color: white;
+  border-radius: 12px;
 }
+/* Style the rating (make it bold) */
+.card-container-3 .card .card-content p:nth-of-type(1) {
+  font-weight: bold; /* Makes the rating text bold */
+  font-size: 1.2em; /* Slightly larger text for emphasis */
+  margin-bottom: 10px; /* Space below the rating */
+  text-align: center; /* Center-align the rating */
+  width: 100%; /* Takes full width */
+}
+
 
 .section-3 {
   padding-top: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 50px;
   background-color: #d9d9d9;
-}
-
-.section-4 {
-  margin-bottom: 30px;
 }
 
 .card {
@@ -183,24 +193,49 @@ button {
 .card-content {
   text-align: center;
 }
-/*
-.image-container {
-  position: relative;
+
+.section-4 {
+  margin-bottom: 30px;
 }
 
-.image1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+.section-heading-4 {
+  margin-bottom: 20px; /* Adds space between the heading and the description */
 }
 
-.image2 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.section-4 {
+  display: flex;
+  flex-direction: column; /* Ensures that content flows from top to bottom */
+  align-items: flex-start; /* Align items to the left */
 }
 
 .section-description {
-  margin-top: 20px;
+  margin-bottom: 20px; /* Adds space between the description and the images */
+  padding-right: 5%;
+  text-align: justify;
 }
-*/
+
+.image-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.image1 {
+  width: 20%; /* Adjust size as needed */
+  height: 100%;
+  position: absolute; /* Use absolute positioning for overlapping */
+  top: -10%; /* Adjusts the overlap by moving image 1 higher */
+  left: 80%; /* Center image 1 horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 2; /* Ensure image 1 is on top */
+}
+
+.image2 {
+  width: 35%; /* Adjust size as needed */
+  height: 100%;
+  position: relative;
+  z-index: 1; /* Ensure this image is behind the first image */
+  margin-right: 15%;
+}
+
+

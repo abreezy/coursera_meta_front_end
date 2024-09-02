@@ -3,6 +3,7 @@
 import React from 'react';
 import Card from './card';
 import './Main.css';
+import footerLogo from './img/Asset 20@4x.png'
 
 function Main() {
   return (
@@ -42,10 +43,10 @@ function Main() {
         </div>
         <div className="card-container-3">
           {/* Repeat this for each testimonial */}
-          <Card rating="5" imageSrc="https://www.shutterstock.com/image-photo/handsome-man-eating-restaurant-260nw-145197316.jpg" name="John Doe" caption="Amazing experience!"showButton={false} />
-          <Card rating="5" imageSrc="https://media.gettyimages.com/id/1174700903/photo/portrait-of-happy-customer-at-restaurant.jpg?s=1024x1024&w=gi&k=20&c=yZJ09oa3fyAKwrX0_pIXtvyYqbN3iR0qeG7mTKNMt0M=" name="John Doe" caption="Amazing experience!" showButton={false} />
-          <Card rating="5" imageSrc="https://www.touchdynamic.com/wp-content/uploads/2014/05/bigstock-Happy-Staff-At-Restaurant-51586420-2048x1024.jpg" name="John Doe" caption="Amazing experience!" showButton={false} />
-          <Card rating="5" imageSrc="https://www.shutterstock.com/image-photo/happy-restaurant-customer-holding-water-260nw-2393097787.jpg" name="John Doe" caption="Amazing experience!" showButton={false} />
+          <Card rating="5/5" imageSrc="https://www.shutterstock.com/image-photo/handsome-man-eating-restaurant-260nw-145197316.jpg" name="John Doe" caption="Amazing experience!"showButton={false} />
+          <Card rating="5/5" imageSrc="https://media.gettyimages.com/id/1174700903/photo/portrait-of-happy-customer-at-restaurant.jpg?s=1024x1024&w=gi&k=20&c=yZJ09oa3fyAKwrX0_pIXtvyYqbN3iR0qeG7mTKNMt0M=" name="John Doe" caption="Amazing experience!" showButton={false} />
+          <Card rating="5/5" imageSrc="https://www.touchdynamic.com/wp-content/uploads/2014/05/bigstock-Happy-Staff-At-Restaurant-51586420-2048x1024.jpg" name="John Doe" caption="Amazing experience!" showButton={false} />
+          <Card rating="5/5" imageSrc="https://www.shutterstock.com/image-photo/happy-restaurant-customer-holding-water-260nw-2393097787.jpg" name="John Doe" caption="Amazing experience!" showButton={false} />
           {/* Repeat this for each testimonial */}
         </div>
       </section>
@@ -57,10 +58,10 @@ function Main() {
           <h3>Chicago</h3>
         </div>
         <div className="image-container">
-          <img src="image1.jpg" alt="Image 1" className="image1" />
-          <img src="image2.jpg" alt="Image 2" className="image2" />
+          <p className="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <img src={footerLogo} alt="Image 1" className="image1" />
+          <img src="https://www.remodelista.com/wp-content/uploads/2015/03/img/sub/uimg/02-2011/longman-1.jpg" alt="Image 2" className="image2" />
         </div>
-        <p className="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </section>
     </main>
   );

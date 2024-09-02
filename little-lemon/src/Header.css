@@ -1,9 +1,8 @@
 .header {
-  background-color: #f8f8f8;
   display: flex;
   padding: 5px;
-  padding-left: 15%;
-  position: fixed;
+  padding-left: 10%;
+  position: absolute;
 }
 .logo-container {
   display: flex;

@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.css';
+import headerLogo from './img/header_logo.png';
 
 function Header() {
   return (
     <header className="header">
       <div className="logo-container">
-      <img src="https://littlelemonrestaurantankitamwebsiteproject.netlify.app/static/media/Logo.370f832fad423c516d56.png" alt='Little lemon logo'></img>
+        <img src={headerLogo} alt="Little Lemon logo" />
       </div>
     </header>
   );
