@@ -1,9 +1,60 @@
-/* Footer.css */
-
 footer {
-    background-color: #f8f8f8;
-    padding: 10px;
-    text-align: center;
-  }
+  background-color: #f8f8f8;
+  padding: 20px;
+}
 
-  /* Add additional styles for your footer content as needed */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-image img {
+  max-width: 150px;
+  margin-left: 15%;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.footer-section {
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  background-color: #f8f8f8;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-links img {
+  width: 5%;
+  height: auto;
+}
+
+.social-links li {
+  display: inline-block;
+}
